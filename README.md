@@ -1,15 +1,15 @@
 # Starter
 
-A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development environment.
+A [Nuxt-Egg](https://github.com/liyanlong/nuxt-egg) starter project template without the distraction of a complicated development environment.
 
-Live demo: https://starter.nuxtjs.org
+Live demo: https://liylblog.com/nuxt-egg/starter
 
 ## Installation
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
-$ vue init nuxt/starter my-project  
+$ vue init nuxt-egg/starter my-project
 $ cd my-project                     
 # install dependencies
 $ npm install # Or yarn install
@@ -22,23 +22,15 @@ $ npm install # Or yarn install
 ### Development
 
 ``` bash
-# serve with hot reloading at localhost:3000
+# serve with hot reloading at localhost:7001
 $ npm run dev
 ```
 
-Go to [http://localhost:3000](http://localhost:3000)
+Go to [http://localhost:7001](http://localhost:7001)
 
 ### Production
 
 ``` bash
 # build for production and launch the server
-$ npm run build
 $ npm start
-```
-
-### Generate
-
-``` bash
-# generate a static project
-$ npm run generate
 ```

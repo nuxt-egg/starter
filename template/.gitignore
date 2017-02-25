@@ -1,5 +1,7 @@
 # dependencies
 node_modules
+coverage
+test/fixtures
 
 # logs
 npm-debug.log
@@ -7,5 +9,11 @@ npm-debug.log
 # Nuxt build
 .nuxt
 
-# Nuxt generate
-dist
+# Egg
+run
+*-run
+log
+
+
+# MacOS
+.DS_Store

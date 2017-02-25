@@ -15,8 +15,8 @@ $ npm run dev
 $ npm run build
 $ npm start
 
-# generate static project
-$ npm run generate
+# test
+$ npm run test
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+For detailed explanation on how things work, checkout the [nuxt-egg](https://github.com/liyanlong/nuxt-egg).
