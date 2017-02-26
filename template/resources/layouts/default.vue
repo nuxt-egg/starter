@@ -9,7 +9,7 @@
 import MyFooter from '~components/Footer.vue'
 
 export default {
-  head() {
+  head () {
     return {
       title: 'Welcome Use nuxt-egg'
     }
