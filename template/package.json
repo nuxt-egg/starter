@@ -15,7 +15,7 @@
     "ci": "npm run lint && npm run cov",
     "precommit": "npm run lint"
   },
-   "babel": {
+  "babel": {
     "presets": [
       "es2015",
       "stage-2"
