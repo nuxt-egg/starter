@@ -22,8 +22,7 @@
     ]
   },
   "dependencies": {
-    "nuxt-egg": "latest",
-    "axios": "^0.15.3"
+    "nuxt-egg": "latest"
   },
   "devDependencies": {
     "egg-bin": "^2.0.2",
