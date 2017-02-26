@@ -6,13 +6,13 @@
   "private": true,
   "scripts": {
     "dev": "egg-bin dev",
+    "watch": "nodemon  --exec babel-node -w config/config.nuxt.js -w app/ node server.js",
+    "start": "NODE_ENV=production egg-bin dev",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "ci": "npm run lint && npm run cov",
-    "start": "node server.js",
-    "start:server": "NODE_ENV=production node server.js",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
    "babel": {
@@ -40,5 +40,8 @@
     "eslint-plugin-promise": "^3.4.1",
     "eslint-plugin-standard": "^2.0.1",
     "nodemon": "^1.11.0"
+  },
+  "egg": {
+    "framework": "nuxt-egg"
   }
 }

@@ -5,4 +5,5 @@ module.exports = {
   errorHandler: {
     match: '/api',
   },
+  nuxt: require('./config.nuxt.js')
 };
